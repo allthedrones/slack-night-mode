@@ -2,9 +2,9 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
-a:link, a:visited { color: #949494; }
+a:link, a:visited { color: rgb(239, 192, 0); }
 
-a:hover, a:active, a:focus { color: #c7c7c7; }
+a:hover, a:active, a:focus { color: rgba(239, 192, 0, 0.8); }
 
 hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
 
@@ -782,7 +782,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 ts-message { color: #e6e6e6; }
 
-ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.1); box-shadow: inset 1px 0 0 0 #222; }
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.25); box-shadow: inset 1px 0 0 0 #222; }
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.2); }
 
@@ -860,7 +860,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-ts-message .mention { background: #828282 !important; color: #e6e6e6 !important; }
+ts-message .mention { background: #861b00 !important; color: #e6e6e6 !important; }
 
 ts-message .internal_member_link { background: #222 !important; border: 0; color: #949494 !important; }
 
@@ -1272,7 +1272,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #bf360c; }
 
 .dense_theme ts-message .message_content .message_current_status { border-color: #363636; }
 
-.light_theme ts-message { color: #e6e6e6; }
+.light_theme ts-message { color: #c5c5c5; }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #e6e6e6 !important; }
 
